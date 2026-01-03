@@ -31,13 +31,12 @@ CSV Data (Repo A)  →  Python Script  →  JSON Data (Repo B)
 ### 2. Setup Your Repos
 
 **Repo A (Source)**: Create `data/sample.csv`
-```csv
-id,name,email,department
-1,John Doe,john@example.com,Engineering
-2,Jane Smith,jane@example.com,Marketing
-```
+Upload your CSV file into the Repo A. 
+For my case, I use the file name: stock_toy.csv which you can find in this [data](https://github.com/Shazizan/data) as my source repository.
 
-**Repo B (Destination)**: Create empty `data/` folder
+
+**Repo B (Destination)**: Create empty `etl/` folder.
+As for me, I just dumped all the processed data in this repo.
 
 ### 3. Configure & Run
 
